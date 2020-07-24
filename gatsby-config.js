@@ -16,11 +16,17 @@ module.exports = {
 		]
 	},
 	plugins: [
-		'gatsby-plugin-mdx',
 		{
-			resolve: 'gatsby-theme-blog',
+			resolve: `gatsby-plugin-mdx`,
 			options: {
-				basePath: '/blog',
+				gatsbyRemarkPlugins: [`gatsby-remark-images`],
+				plugins: [`gatsby-remark-images`]
+			}
+		},
+		{
+			resolve: `gatsby-theme-blog`,
+			options: {
+				basePath: `/blog`,
 				mdxOtherwiseConfigured: true
 			}
 		}
