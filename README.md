@@ -33,3 +33,11 @@ export default function Home() {
 	return <div>Hello, World!</div>;
 }
 ```
+
+#### .gitignore
+
+```
+node_modules
+public
+cache
+```
