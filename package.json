@@ -11,8 +11,8 @@
   "dependencies": {
     "gatsby": "^2.24.11",
     "gatsby-plugin-mdx": "^1.2.29",
-    "gatsby-remark-images": "^3.3.21",
-    "gatsby-theme-blog": "^2.0.1",
+    "gatsby-remark-images": "^7.9.0",
+    "gatsby-theme-blog": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
